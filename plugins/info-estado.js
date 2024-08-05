@@ -22,10 +22,10 @@ const handler = async (m, { conn, usedPrefix }) => {
   const old = performance.now();
   const neww = performance.now();
   const rtime = (neww - old).toFixed(7);
-  const wm = 'Readz Aleizn';
+  const wm = '𝗚𝗛𝗢𝗦𝗧 𝗕𝗢𝗧';
   const info = ` _*< INFO - ESTADO />*_
 
- [🤴🏻] *Prop.:* Readz Aleizn
+ [🤴🏻] *Prop.:* 𝗚𝗛𝗢𝗦𝗧 𝗕𝗢𝗧
  [#️⃣] *WA:* wa.me/51992621701
 
  [💡] *Ping:* ${rtime}
@@ -56,7 +56,7 @@ const handler = async (m, { conn, usedPrefix }) => {
   ];
   const document = doc[Math.floor(Math.random() * doc.length)];
   const Message = {
-    document: { url: `https://chat.whatsapp.com/CCDGO1lIuH3Ggr4nA44cbY` },
+    document: { url: `https://www.instagram.com/usxr.alxb` },
     mimetype: `application/${document}`,
     fileName: `Documento`,
     fileLength: 99999999999999,
@@ -65,13 +65,13 @@ const handler = async (m, { conn, usedPrefix }) => {
       forwardingScore: 200,
       isForwarded: true,
       externalAdReply: {
-        mediaUrl: "https://chat.whatsapp.com/CCDGO1lIuH3Ggr4nA44cbY",
+        mediaUrl: "https://www.instagram.com/usxr.alxb",
         mediaType: 2,
         previewType: "pdf",
-        title: "Readz Aleizn",
-        body: "Readz Aleizn",
+        title: "𝗚𝗛𝗢𝗦𝗧 𝗕𝗢𝗧",
+        body: "𝗚𝗛𝗢𝗦𝗧 𝗕𝗢𝗧",
         thumbnail: imagen1,
-        sourceUrl: "https://chat.whatsapp.com/CCDGO1lIuH3Ggr4nA44cbY",
+        sourceUrl: "https://www.instagram.com/usxr.alxb",
       },
     },
     caption: info,
